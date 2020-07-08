@@ -12,7 +12,7 @@
 
     <groupId>be.cegeka</groupId>
     <artifactId>gameoflife</artifactId>
-    <version>0.0.1-SNAPSHOTS</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>gameoflife</name>
     <prerequisites>
@@ -22,11 +22,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
-            <url>http://100.25.203.10:8081/nexus/#view-repositories;snapshots</url>
+            <url>http://100.25.203.10:8081/nexus/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
             <id>releases</id>
-            <url>http://100.25.203.10:8081/nexus/#view-repositories;releases</url>
+            <url>http://100.25.203.10:8081/nexus/repositories/releases</url>
         </repository>
     </distributionManagement>
            
